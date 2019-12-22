@@ -74,4 +74,29 @@ class Game
     @player_1 = player_1
     @player_2 = player_2
   end
-
+  
+  def current_player
+    @board.turn_count % 2 == 0 ? player_1
+  end
+  
+  def over?
+    won? || draw?
+  end
+  
+  def won?
+    WIN_COMBINATIONS.detect do |winner|
+      @board.cells[i]
+      
+      [1,4,7]
+    end
+  end
+  
+  def draw?
+    @board.full? && !won?
+  end
+  
+  def winner
+    if  a win combination = won?
+      @winner = @board.cells[winning piece]
+    end
+  end
