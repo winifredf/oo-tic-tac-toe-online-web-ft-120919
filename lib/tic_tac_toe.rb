@@ -34,6 +34,5 @@ end
   end
   
   def taken?(input)
-    !(position(input)==" " || position(input)==""
-  end
-end
+    position(input)=="X" || position(input)=="0"
+ end
