@@ -81,7 +81,7 @@ class Game
   
   def over?
     won? || draw?
-  end
+  
   
   def won?
     WIN_COMBINATIONS.detect do |winner|
