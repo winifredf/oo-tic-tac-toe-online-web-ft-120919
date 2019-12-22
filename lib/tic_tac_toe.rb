@@ -101,3 +101,4 @@ end
       @winner = @board.cells[winning piece]
     end
   end
+end
