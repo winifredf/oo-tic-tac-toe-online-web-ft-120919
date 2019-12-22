@@ -44,3 +44,13 @@ end
   def update(input, player)
     cells[input.to_i-1] = player.token
   end
+  
+  module  Players
+    class Human < PLayer
+      
+      def move
+        puts  "Please enter your selection!"
+        gets.strip
+      end
+    end
+  end
