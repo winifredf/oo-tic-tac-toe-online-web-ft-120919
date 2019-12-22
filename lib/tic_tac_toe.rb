@@ -10,5 +10,8 @@ class TicTacToe
   end
   
   def display
-    puts " 
-    
+    puts " #{cells[0] | #{cells[1] | #{cells[3]}"
+    puts  ""
+    puts  
+    puts
+  end
