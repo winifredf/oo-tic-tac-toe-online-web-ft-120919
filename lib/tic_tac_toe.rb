@@ -78,6 +78,7 @@ class Game
   def current_player
     @board.turn_count % 2 == 0 ? player_1
   
+  
   def over?
     won? || draw?
   
