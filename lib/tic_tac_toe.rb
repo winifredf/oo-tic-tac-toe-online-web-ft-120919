@@ -85,7 +85,7 @@ end
     
     if  position_1 == "X" && position_2 == "X" && position_3 = "X"
       return  win_combo
-    elseif  position_1 == "0" && position_2 == "0" position_3 == "0"
+    elseif  position_1 == "0" && position_2 == "0" 
       return  win_combo
     end
     return  false
