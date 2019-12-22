@@ -68,37 +68,7 @@ class Game
     [2,4,6]
   ]
   
-  
-  
-  def initialize(player_1 = player_2 = Players::Human.new("0"), board = Board.new)
-    @board = board
-    @player_1 = player_1
-    @player_2 = player_2
+  def initialize
+    @board = Array.new(9, " ")
   end
   
-  def current_player
-    @board.turn_count % 2 == 0 ? player_1
-  
-  
-  def over?
-    won? || draw?
-  
-  
-  def won?
-    WIN_COMBINATIONS.detect do |winner|
-      @board.cells[i]
-      
-      [1,4,7]
-    end
-  end
-  
-  def draw?
-    @board.full? && !won?
-  end
-  
-  def winner
-    if  a win combination = won?
-      @winner = @board.cells[winning piece]
-    end
-  end
-end
