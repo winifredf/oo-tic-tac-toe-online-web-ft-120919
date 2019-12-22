@@ -19,3 +19,14 @@ class TicTacToe
   end
 
 end
+  def position(input)
+    cells[input.to_i-1]
+      if  character == "X" || character == "0"
+        true
+      else
+        false
+      end
+    end
+  end
+  
+  
