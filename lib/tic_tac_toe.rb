@@ -9,3 +9,5 @@ class TicTacToe
     @cells = Array.new(9," ")
   end
   
+  def display
+    puts " #{cells[0] | #{cells[1] | #{cells[3]}"
