@@ -1,5 +1,9 @@
 class TicTacToe
+  attr_accessor :cells
   
+  def initialize
+    reset!
+  end
 
   def initialize(board = nil)
     @board = board || Array.new(9," ")
