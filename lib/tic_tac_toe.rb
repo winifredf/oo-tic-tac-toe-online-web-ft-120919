@@ -28,7 +28,6 @@ end
         false
       end
     end
-  end
   
   def turn_count
     cells.count{|char| char=="X" || char=="0"}
