@@ -23,7 +23,7 @@ end
     puts  "-----------"
     puts  "#{@board[6]} | #{@board[7]} | #{@board[8]}"
   end
-  display
+  display_board
 end
   
   def input_to_index(user_input)
