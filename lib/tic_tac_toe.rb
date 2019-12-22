@@ -19,6 +19,7 @@ class TicTacToe
   end
 
 end
+  
   def position(input)
     cells[input.to_i-1]
       if  character == "X" || character == "0"
