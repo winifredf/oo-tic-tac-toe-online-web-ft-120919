@@ -1,4 +1,5 @@
-class Board
+class TicTacToe
+  
   attr_accessor :cells
   
   def initialize
