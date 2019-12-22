@@ -89,7 +89,6 @@ end
       return  win_combo
     end
     return  false
-  end
   
   
   def full?
