@@ -79,4 +79,28 @@ end
     index_1 = win_combo[1]
     index_2 = win_combo[2]
 
-      
+    position_1 = @board[index_0]
+    position_2 = @board[index_1]
+    position_3 = @board[index_2]
+    
+    if  position_1 == "X" && position_2 == "X" && position_3 = "X"
+      return  win_combo
+    elseif  position_1 == "0" && position_2 == "0" position_3 = "0"
+      return  win_combo
+    end
+    }
+    return  false
+  end
+  
+  
+  def full?
+    @board.all? {|index| index == "X" || index == "0"}
+  end
+  
+  def draw?
+    if  !won? && full?
+      return  true
+    else
+      return  false
+    end
+  end
