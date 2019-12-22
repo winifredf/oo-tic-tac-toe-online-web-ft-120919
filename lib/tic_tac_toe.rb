@@ -45,14 +45,14 @@ end
     cells[input.to_i-1] = player.token
   end
   
-  module  Players
-    class Human < PLayer
+module  Players
+  class Human < PLayer
       
-      def move
-        puts  "Please enter your selection!"
-        gets.strip
-      end
+    def move
+      puts  "Please enter your selection!"
+      gets.strip
     end
+  end
 
 class Game
   attr_accessor :board, :player_1,  :player_2
