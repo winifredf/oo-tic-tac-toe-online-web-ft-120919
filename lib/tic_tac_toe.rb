@@ -87,6 +87,7 @@ end
       return  win_combo
     elseif  position_1 == "0" && position_2 == "0" position_3 == "0"
       return  win_combo
+    }
     end
     return  false
   end
