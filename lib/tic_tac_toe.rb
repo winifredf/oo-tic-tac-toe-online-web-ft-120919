@@ -69,4 +69,5 @@ class Game
     [2,4,6]
   ]
   
-  
+  def initialize(player_1 = , player_2 = Players::Human.new("0"), board = Board.new)
+    @
