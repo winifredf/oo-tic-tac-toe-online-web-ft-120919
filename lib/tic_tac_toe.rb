@@ -7,7 +7,7 @@ class TicTacToe
   end
 
   def reset!
-    @cells = Array.new(9," ")
+    @board = Array.new(9," ")
   end
   
   def display
