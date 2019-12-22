@@ -83,7 +83,7 @@ end
     position_2 = @board[index_1]
     position_3 = @board[index_2]
     
-    if  position_1 == "X" && position_2 == "X" && position_3 = "X"
+    if  position_1 == "X" && position_2 == "X" && position_3 == "X"
       return  win_combo
     elseif  position_1 == "0" && position_2 == "0" 
       return  win_combo
@@ -101,4 +101,4 @@ end
     else
       return  false
     end
-  end
+  
